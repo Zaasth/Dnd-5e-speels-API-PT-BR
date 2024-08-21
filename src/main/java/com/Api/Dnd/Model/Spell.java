@@ -1,25 +1,44 @@
 package com.Api.Dnd.Model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-import java.beans.ConstructorProperties;
-
 @NoArgsConstructor
-@RequiredArgsConstructor
 @Getter
 @Setter
 public class Spell {
 
-    String nome;
-    Integer level;
-    String Casting;
-    String Components;
-    String Duration;
-    String Concentracao;
-    String Descricao;
-    String Classes;
-    String Subclass;
+    private String nome;
+
+    @JsonProperty("escola")
+    private String escola;
+
+    private int level;
+    private String range;
+
+    @JsonProperty("Ritual")
+    private String ritual;
+
+    @JsonProperty("Casting")
+    private String casting;
+
+    @JsonProperty("Components")
+    private String components;
+
+    @JsonProperty("Duration")
+    private String duration;
+
+    @JsonProperty("Concentracao")
+    private String concentracao;
+
+    @JsonProperty("Descricao")
+    private String descricao;
+
+    @JsonProperty("Classes")
+    private String classes;
+
+    @JsonProperty("Subclass")
+    private String subclass;
 }
