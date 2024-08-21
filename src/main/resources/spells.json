@@ -2,6 +2,7 @@
   {
     "nome": "Cleiton",
     "level": 8,
+    "range": "30 Feet",
     "Casting": "Ação",
     "Components": "V, S, M (pedaço de esponja)",
     "Duration": "10 minutos",
@@ -14,6 +15,7 @@
   {
     "nome": "Cleiton",
     "level": 8,
+    "range": "120 Feet",
     "Casting": "Ação",
     "Components": "V, S, M (pedaço de esponja)",
     "Duration": "10 minutos",
