@@ -1,0 +1,27 @@
+[
+  {
+    "nome": "Cleiton",
+    "level": 8,
+    "Casting": "Ação",
+    "Components": "V, S, M (pedaço de esponja)",
+    "Duration": "10 minutos",
+    "Concentracao": "Sim",
+    "Descricao": "Uma descrição muito foda",
+    "Classes": "Mago",
+    "Subclass": "Guerreiro arcano"
+  },
+
+  {
+    "nome": "Cleiton",
+    "level": 8,
+    "Casting": "Ação",
+    "Components": "V, S, M (pedaço de esponja)",
+    "Duration": "10 minutos",
+    "Concentracao": "Sim",
+    "Descricao": "Uma descrição muito foda",
+    "Classes": "Mago",
+    "Subclass": "Guerreiro arcano"
+  }
+
+]
+
